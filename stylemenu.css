@@ -1,0 +1,12 @@
+
+body{
+	font-family: 'Flamenco', cursive;
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('bgc.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: white;
+}
+.heading{
+	font-size: 50px;
+}

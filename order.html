@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>YOUR ORDER</title>
+<link rel="stylesheet" type="text/css" href="styleorder.css">
+<link href="https://fonts.googleapis.com/css2?family=Flamenco&display=swap" rel="stylesheet">
+ <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+  <style>
+  	input[type=submit] {
+    padding:5px 15px; 
+    background:#bf55ec; 
+    border:15 15;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height:40px;
+    width: 165px;
+    font-weight: bold;
+    float: right;
+    margin-right: 150px;
+}
+</style>
+</head>
+<body>
+	<h1 class="main-nav animate__animated animate__slideInDown" align="center"><b>YOUR ORDER</b></h1>
+	<p class="heading" align="center">Please fill all the fields positively</p><br>
+	<form>
+		<div align="left">
+			<label for="name">NAME: &nbsp&nbsp&nbsp</label>
+  <input type="text" id="name" name="name"><br><br><br>
+  <label for="phoneno">PHONE NUMBER: &nbsp&nbsp&nbsp</label>
+  <input type="text" id="phoneno" name="phoneno"><br><br><br>
+  <label for="Address">ADDRESS: &nbsp&nbsp&nbsp</label>
+<textarea id="Address" rows="4" cols="50">
+</textarea><br><br><br>
+ <label for="Order">YOUR ORDER: &nbsp&nbsp&nbsp</label>
+<textarea id="Order" rows="5" cols="50">
+</textarea><br><br><br>
+METHODS OF PAYMENTS: &nbsp&nbsp&nbsp
+<input type="radio" id="Credit" name="method" value="Credit Card">
+  <label for="Credit">Credit Card</label><br><br><br>
+  <input type="radio" id="Debit" name="method" value="Debit Card">
+  <label for="Credit">Debit Card</label><br><br><br>
+  <input type="radio" id="Netbanking" name="method" value="Netbanking">
+  <label for="Credit">Netbanking</label><br><br><br>
+  <input type="radio" id="upi" name="method" value="Upi/Bhim">
+  <label for="Credit">UPI/BHIM</label><br><br><br>
+  <input type="radio" id="Cash" name="method" value="Cash">
+  <label for="Credit">Cash on Delivery</label><br><br><br><br>
+
+<input type="submit" value="PLACE ORDER">
+</div>
+	</body></html>
